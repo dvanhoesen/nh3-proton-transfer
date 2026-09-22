@@ -1,0 +1,14 @@
+tolerance 1.8
+filetype xyz
+output systems/nh3_31h2o/nh3_31h2o.xyz
+seed 1234567
+
+structure systems/templates/ammonia.xyz
+  number 1
+  inside box 0.5 0.5 0.5 9.3 9.3 9.3
+end structure
+
+structure systems/templates/water.xyz
+  number 31
+  inside box 0.5 0.5 0.5 9.3 9.3 9.3
+end structure
