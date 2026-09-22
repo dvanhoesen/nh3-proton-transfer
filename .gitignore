@@ -1,0 +1,62 @@
+# Local repository guidance
+AGENTS.md
+
+# CP2K and PLUMED generated outputs
+/runs/
+/PLUMED.OUT
+/*-RESTART.wfn
+/*-RESTART.wfn.bak-*
+/*-pos-*.xyz
+/*.ener
+/*.restart
+/*.bak-*
+
+# Simulation trajectories and restart data
+*.dcd
+*.trr
+*.xtc
+*.mdcrd
+*.nc
+*.wfn
+*.cube
+
+# Large analysis datasets
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+
+# Python virtual environments and packaging
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
